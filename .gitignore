@@ -1,0 +1,6 @@
+# The folders automatically created
+node_modules
+dist
+
+# Mac files
+.DS_Store
