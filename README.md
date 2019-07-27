@@ -43,7 +43,7 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 vueの特性として、 `.vue` ファイル内にstyleを記載することができます。その際には `<style lang="scss">` といった形で記載するとscssで記載できます。
 
 ### layoutごとに読み込むscssを変えたい場合
-pages配下の各ページはlayoutのコンポーネントにラップされています。
+pages配下の各ページはlayoutのコンポーネントにラップされています。  
 [レイアウト](https://ja.nuxtjs.org/guide/views#%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88)
 そのレイアウト毎にもsassファイルをimportできます。現時点では `defauld.vue` にもsassファイルをimportをしているので、追加したり、削除したりすることで全体に影響するsassをコントロールすることができます。
 
@@ -58,7 +58,7 @@ pages配下の各ページはlayoutのコンポーネントにラップされて
 
 
 ## jqueryとの併用
-[外部リソースを使うには？](https://ja.nuxtjs.org/faq/)
+[外部リソースを使うには？](https://ja.nuxtjs.org/faq/)  
 `jquery-sample.vue` に実際のコードを記載しているので、そちらを参照ください
 
 
